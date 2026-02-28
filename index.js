@@ -1,6 +1,6 @@
 const axios = require('axios'); // legacy way
 
-const service_url = "https://ip-intelligence.abstractapi.com/v1/?api_key=6737c6fc96bd46bf9e2cc2345a223b2c&ip_address=2607:fea8:2c63:9000:9962:7c57:1f6f:4f92"
+const service_url = "http://api.weatherapi.com/v1/current.json?key=ca738184b80946068f8182409262802&q=London&aqi=no"
 
 async function getData() {
 try {
